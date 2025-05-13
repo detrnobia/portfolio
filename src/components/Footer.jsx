@@ -6,10 +6,10 @@ const Footer = () => {
   
   // Replace with your actual social links
   const socialLinks = [
-    { name: 'LinkedIn', url: 'https://linkedin.com/in/yourusername' },
-    { name: 'GitHub', url: 'https://github.com/yourusername' },
-    { name: 'Twitter', url: 'https://twitter.com/yourusername' },
-    { name: 'Dribbble', url: 'https://dribbble.com/yourusername' }
+    { name: 'LinkedIn', url: 'https://www.linkedin.com/in/kate-capadocia-761782348?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
+    { name: 'GitHub', url: 'https://github.com/detrnobia' },
+    { name: 'Instagram', url: 'https://www.instagram.com/kcateis/'},
+    { name: 'Facebook', url: 'https://www.facebook.com/profile.php?id=100008889641510' }
   ];
 
   return (

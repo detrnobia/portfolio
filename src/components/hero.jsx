@@ -1,14 +1,14 @@
 import React from 'react';
-//import avatarImage from '../assets/avatar.png'; // You'll need to add your own avatar image
+import avatarImage from '../assets/avatar.jpg'; // You'll need to add your own avatar image
 
 const Hero = () => {
   return (
     <section id="home" className="hero">
       <div className="hero-content">
         <div className="hero-text">
-          <p className="greeting">Hello! I Am <span className="highlight">Your Name</span></p>
+          <p className="greeting">Hello! I Am <span className="highlight">Kate Capadocia</span></p>
           <h1>
-            A Designer who<br />
+            A Designer/Programmer who<br />
             Judges a book <br />
             by its <span className="cover-text">cover</span>...
           </h1>
@@ -30,7 +30,7 @@ const Hero = () => {
         
         <div className="avatar-container">
           <div className="purple-glow"></div>
-          <img src={avatarImage} alt="Your Name" className="avatar" />
+          {<img src={avatarImage} alt="Your Name" className="avatar" /> }
         </div>
       </div>
     </section>
